@@ -1,0 +1,33 @@
+{
+  "name": "rifusd-oracle",
+  "version": "1.0.0",
+  "description": "Oracle implemented using Provable API to get RIF token price in USD for an external source every certain period of time",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.3.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-privatekey-provider": "^1.3.0",
+    "web3": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "solidity-coverage": "^0.6.7",
+    "truffle-assertions": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsksmart/oracle-rifusd.git"
+  },
+  "author": "IOV Labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsksmart/oracle-rifusd/issues"
+  },
+  "homepage": "https://github.com/rsksmart/oracle-rifusd#readme"
+}
