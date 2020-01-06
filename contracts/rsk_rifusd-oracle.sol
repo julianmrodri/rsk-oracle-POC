@@ -43,7 +43,7 @@ contract RIFUSDOracle is IRIFUSDOracle, Ownable, usingOraclize {
     modifier callbackIsFromProvable() {
         require(
             msg.sender == oraclize_cbAddress(), 
-            "Callback can only be called from oraclize callback address"
+            "Callback can only be called from Provable callback address"
         );
         _;
     }
